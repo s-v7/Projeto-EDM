@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+    xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://vvv.v3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+        http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    
+    <persistence-unit name="Projeto">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+       
+       
+        <properties>
+            
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/cliente" />
+            <property name="javax.persistence.jdbc.driver" value="org.mysql.Driver" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="jesus777" />
+            
+            <property name="hibernate.hbm2dd1.auto" value="update" />
+            <property name="hibernate.shov_sql" value="true" />
+            <property name="hibernate.format_sql" value="true" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+            
+        </properties>
+    </persistence-unit>
+    
+    
+</persistence>
+
