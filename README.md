@@ -2,5 +2,5 @@
 >
 > ### Prova Java! 
 >
-> - **Tecnologias Utilizadas: Java OPP*
-
+> - *Tecnologias Utilizadas: Java OPP*
+>
